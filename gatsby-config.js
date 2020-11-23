@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Shalom Christian Embassy`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@mcclintsayshi`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,8 +31,8 @@ module.exports = {
       resolve: "gatsby-plugin-google-fonts",
       options: {
         fonts: [
-          `poppins:\200,200i,300,300i,400,400i,500,600,700`,
-          `PT Serif:\400,400i,700,700i`,
+          `poppins\:200,200i,300,300i,400,400i,500,600,700`,
+          `PT Serif\:400,400i,700,700i`,
         ],
         display: "swap",
       },
