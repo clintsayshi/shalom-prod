@@ -1,0 +1,52 @@
+.section {
+  min-height: 20vh;
+  margin: auto;
+  display: flex;
+  justify-items: center;
+  position: relative;
+}
+
+.paragraph {
+  margin-top: 1.5rem;
+  width: 55%;
+}
+
+.section_heading {
+  margin: auto;
+  width: max-content;
+  padding: 1rem 1rem;
+  background: rgba(219, 189, 20, 0.384);
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    min-height: 20vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph {
+    margin: 1.5rem auto;
+    width: 85%;
+    text-align: center;
+  }
+}
+
+.section_ministries {
+  width: 55%;
+  margin: auto;
+}
+
+.section_ministry {
+  width: 100%;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.section_ministry * {
+  margin: 0.5rem 0;
+}

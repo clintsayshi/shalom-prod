@@ -1,0 +1,63 @@
+/* 
+
+
+*/
+
+.dropdown {
+  margin: 2rem auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  /* border: 1px dotted blue; */
+}
+
+.dropdown_links {
+  flex: 1.8;
+  display: flex;
+}
+
+.dropdown_links div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dropdown_link {
+  margin: 0.5rem 0.5rem;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+
+.dropdown_toggle {
+  flex: 0.2;
+  justify-self: flex-end;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.dropdown_toggle * {
+  text-align: right;
+  vertical-align: middle;
+
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.section_ministry {
+  width: 80%;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.section_ministry * {
+  margin: 0.5rem 0;
+}
