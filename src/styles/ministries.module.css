@@ -19,6 +19,21 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .section {
+    min-height: 20vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph {
+    margin: 1rem auto;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    padding: 0;
+    width: 65%;
+  }
+}
 @media screen and (max-width: 600px) {
   .section {
     min-height: 20vh;
@@ -49,4 +64,31 @@
 
 .section_ministry * {
   margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .section_ministry {
+    min-height: 15vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section_ministries {
+    width: 65%;
+    margin: auto;
+  }
+  .section_ministry {
+    min-height: 20vh;
+    margin: 1rem 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section_ministries {
+    position: relative;
+    width: 95vw;
+    margin: auto 1rem;
+  }
+  .section_ministry {
+    width: 95%;
+    text-align: center;
+  }
 }

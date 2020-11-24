@@ -1,14 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 //CSS
 import "../styles/global.css"
 import styles from "../styles/ministries.module.css"
 import Hero from "../components/hero"
-import DropDown from "../components/dropdown"
 import { Ministries as m } from "../data/about-data"
 
 const Ministries = () => (

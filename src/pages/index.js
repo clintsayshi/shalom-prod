@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 //CSS
 import "../styles/global.css"
@@ -56,7 +55,7 @@ const IndexPage = () => (
             optio natus laborum sapiente consequuntur beatae illum magnam sint
             quisquam.
           </p>
-          <a className="btn btn_medium btn_black" href="#">
+          <a href="#" className="btn btn_medium btn_black" href="#">
             Register for this event
           </a>
           <Link className="universal_link" to="/events">
