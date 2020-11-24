@@ -11,6 +11,8 @@ const Events = () => (
   <Layout>
     <SEO title="Events Shalom Christian Embassy" />
     <Hero pageTitle="Events" />
+
+    <div className={StyleSheet.events}></div>
   </Layout>
 )
 
