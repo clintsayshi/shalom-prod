@@ -138,10 +138,14 @@
 }
 
 @media screen and (max-width: 600px) {
+  .ministries_summary {
+    width: 95%;
+  }
   .ministries_summary__content {
     flex-direction: column;
-    width: 100%;
-    border: 1px dotted blue;
+
+    padding: 0;
+    margin: 0;
   }
 }
 
