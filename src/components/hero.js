@@ -39,7 +39,7 @@ const Hero = ({ pageTitle }) => {
         className={`${styles.hero}`}
       >
         <div className={`${styles.innerHero} container`}>
-          <h1>Let's dance together this sunday</h1>
+          <h1>Let go and let God</h1>
           <Link className="btn btn_medium btn_gold">Join us this sunday</Link>
         </div>
       </BackgroundImage>
