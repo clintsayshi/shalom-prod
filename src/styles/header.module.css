@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  height: inherit;
   justify-content: space-between;
   align-items: center;
   z-index: 10;

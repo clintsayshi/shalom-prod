@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 70vw;
+  width: 75vw;
   margin: auto;
 }
 
@@ -45,7 +45,8 @@ body {
     font-size: 18px;
   }
   .container {
-    width: 95vw;
+    width: 100vw;
+    padding: 1rem 1.5rem;
   }
 }
 
@@ -73,10 +74,10 @@ header {
 }
 
 /* hero */
-
+/* 
 .hero {
   height: 90vh;
-}
+} */
 
 /* headings */
 
@@ -211,6 +212,7 @@ footer {
 .btn {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn_medium {
@@ -232,6 +234,18 @@ footer {
   background: #daa520;
   border: 1px solid #daa520;
   transition: all 0.2s ease-in-out;
+}
+
+.btn_transparent {
+  background: transparent;
+  border: 1px solid #daa520;
+  transition: all 0.2s ease-in-out;
+  color: #daa520;
+  cursor: pointer;
+}
+.btn_transparent:hover {
+  background: #fff;
+  color: #daa520;
 }
 
 .btn_gold:hover {

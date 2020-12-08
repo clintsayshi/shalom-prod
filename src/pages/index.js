@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -77,6 +77,7 @@ const IndexPage = () => (
           Ministries
         </h4>
       </div>
+
       <div
         className={`${styles.section_content} ${styles.ministries_summary__content}`}
       >
@@ -88,6 +89,7 @@ const IndexPage = () => (
             elit. Veritatis, in.
           </p>
         </div>
+
         <div className={styles.ministries_summary__item}>
           <h5>Name fo fof</h5>
           <p>
@@ -97,6 +99,7 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
+
       <Link className="universal_link" to="/ministries/">
         View all ministries &gt;
       </Link>
